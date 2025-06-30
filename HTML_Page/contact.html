@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Mais Sarhan - Contact</title>
+    
+    <!-- SEO Meta -->
+    <meta name="description" content="Get in touch with Mais Sarhan, professional web developer and designer." />
+    <meta name="keywords" content="Mais Sarhan, contact, web developer, designer, portfolio" />
+    <meta name="author" content="Mais Sarhan" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Mais Sarhan - Contact" />
+    <meta property="og:description" content="Get in touch with Mais Sarhan, professional web developer and designer." />
+    <meta property="og:type" content="website" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mais Sarhan - Contact" />
+    <meta name="twitter:description" content="Get in touch with Mais Sarhan, professional web developer and designer." />
+    
+    <!-- Favicon -->
+    <link rel="icon" href="../Assets/images/shorts.png" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="../Assets/css/style.css" />
+</head>
+<body>
+
+    <header>
+        <h1>Contact Mais Sarhan</h1>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="album.html">Album</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="return.html">Return Policy</a></li>
+                <li><a href="terms.html">Terms</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Get in Touch 📬</h2>
+            <p>Feel free to reach out to me via the form below. I look forward to connecting with you! 😊</p>
+            <form action="#" method="post" id="contact-form">
+                <label for="name">👤 Name:</label><br/>
+                <input type="text" id="name" name="name" required placeholder="Your full name" /><br/><br/>
+                
+                <label for="email">📧 Email:</label><br/>
+                <input type="email" id="email" name="email" required placeholder="your.email@example.com" /><br/><br/>
+                
+                <label for="message">📝 Message:</label><br/>
+                <textarea id="message" name="message" rows="6" required placeholder="Write your message here..."></textarea><br/><br/>
+                
+                <button type="submit">Send Message 📤</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mais Sarhan. All rights reserved. ⭐️ | 
+           <a href="privacy.html">Privacy Policy</a> | 
+           <a href="terms.html">Terms & Conditions</a>
+        </p>
+    </footer>
+
+    <script>
+    function toggleMenu() {
+        document.getElementById("main-nav").classList.toggle("active");
+    }
+    </script>
+
+</body>
+</html>
