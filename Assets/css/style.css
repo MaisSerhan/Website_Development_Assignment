@@ -49,13 +49,17 @@ nav ul {
     margin-top: 15px;
 }
 
-nav ul li a {
+nav a {
     text-decoration: none;
-    color: var(--link-color);
+    color: var(--link-color) !important;
     font-weight: 600;
     transition: color 0.3s ease;
     padding: 6px 8px;
     border-radius: 4px;
+}
+
+nav .active{
+    font-weight: bold;
 }
 
 nav ul li a:hover,
